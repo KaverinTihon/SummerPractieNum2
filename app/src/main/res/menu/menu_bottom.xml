@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mainFragment"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Main" />
+
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/baseline_person_24"
+        android:title="Profile" />
+
+    <item
+        android:id="@+id/settingFragment"
+        android:checked="true"
+        android:icon="@drawable/baseline_settings_24"
+        android:title="Settings" />
+    <item
+        android:id="@+id/truckFragment"
+        android:checked="true"
+        android:icon="@drawable/truck"
+        android:title="truck" />
+    <item
+        android:id="@+id/timerFragment"
+        android:checked="true"
+        android:icon="@drawable/baseline_av_timer_24"
+        android:title="Timer" />
+</menu>
